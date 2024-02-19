@@ -17,7 +17,7 @@ export default function Hero() {
           </h1>
           <p className="text-[#706F7B] font-rubik pt-6">
             Rent the car of your dreams. Unbeatable prices, unlimited miles,
-            flexible pick-up options and much more. lol
+            flexible pick-up options and much more.
           </p>
           <div className="pt-10 flex md:justify-start justify-center items-center gap-10">
             <button className="font-rubik text-lg font-medium flex items-center gap-2 rounded py-4 px-8 bg-[#FF4D30] text-white shadow-custom hover:shadow-custom-hovered transition-all duration-300 ease-in-out">
