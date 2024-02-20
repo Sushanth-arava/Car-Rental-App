@@ -3,7 +3,7 @@ import image1 from "../assets/chooseUs/main.png";
 import icon1 from "../assets/chooseUs/icon1.png";
 import icon2 from "../assets/chooseUs/icon2.png";
 import icon3 from "../assets/chooseUs/icon3.png";
-import bg from "../assets/chooseUs/bg.png"
+import bg from "../assets/chooseUs/bg.png";
 
 import { FiArrowRightCircle } from "react-icons/fi";
 import ChooseUsCard from "./ChooseUsCard";

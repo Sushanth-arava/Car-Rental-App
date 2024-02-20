@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { CAR_DATA } from "./CarData.js";
 
 export default function VehicleModels() {
@@ -8,7 +8,7 @@ export default function VehicleModels() {
     // Set the first car as selected on page load
     setSelectedCar(CAR_DATA[0][0]);
   }, []);
-
+  console.log(CAR_DATA[0][0]);
   const handleClick = (car) => {
     setSelectedCar(car);
   };
@@ -17,7 +17,9 @@ export default function VehicleModels() {
     <div className="w-full px-8 lg:px-20 pt-6 py:10 lg:py-20 flex-wrap">
       <div className="flex flex-col justify-center items-center pb-20">
         <h3 className="text-2xl font-semibold">Vehicle Models</h3>
-        <h4 className="text-[2.7rem] font-bold py-4 text-center">Our rental fleet</h4>
+        <h4 className="text-[2.7rem] font-bold py-4 text-center">
+          Our rental fleet
+        </h4>
         <p className="text-[#706F7B] px-6 lg:px-96 text-center">
           Choose from a variety of our amazing vehicles to rent for your next
           adventure or business trip
