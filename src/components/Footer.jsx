@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex justify-center items-center text center opacity-20">
-        <p>❤️ anup</p>
+        <p>Made by Sushanth</p>
       </div>
     </div>
   );
