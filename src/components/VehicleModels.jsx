@@ -8,7 +8,7 @@ export default function VehicleModels() {
     // Set the first car as selected on page load
     setSelectedCar(CAR_DATA[0][0]);
   }, []);
-  console.log(CAR_DATA[0][0]);
+ 
   const handleClick = (car) => {
     setSelectedCar(car);
   };
